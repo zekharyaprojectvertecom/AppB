@@ -1,1 +1,5 @@
-<app-select></app-select>
+<main class="container py-5">
+    <form class="row" [formGroup]="formGroup">
+        <app-select class="d-block col-xl-3" [formControlName]="'holiday'" [options]="options" ></app-select>
+    </form>
+</main>
